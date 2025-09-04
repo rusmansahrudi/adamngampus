@@ -60,24 +60,3 @@ body {
             from {opacity: 0; transform: translateY(20px);}
             to {opacity: 1; transform: translateY(0);}
         }
-
-/* Responsive untuk HP */
-@media (max-width: 768px) {
-  .profile-container {
-    width: 95%;           /* biar agak full di layar kecil */
-    padding: 20px;
-  }
-
-  .profile-content {
-    flex-direction: column;  /* ubah dari row jadi column */
-  }
-
-  .card {
-    width: 100%;
-  }
-
-  .back-btn {
-    width: 100%;            /* tombol full di HP */
-    text-align: center;
-  }
-}
