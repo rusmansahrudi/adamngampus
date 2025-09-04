@@ -99,3 +99,24 @@ body {
   from { transform: translateY(30px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
+
+/* Responsive untuk HP */
+@media (max-width: 768px) {
+  .profile-container {
+    width: 95%;           /* biar agak full di layar kecil */
+    padding: 20px;
+  }
+
+  .profile-content {
+    flex-direction: column;  /* ubah dari row jadi column */
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .back-btn {
+    width: 100%;            /* tombol full di HP */
+    text-align: center;
+  }
+}
